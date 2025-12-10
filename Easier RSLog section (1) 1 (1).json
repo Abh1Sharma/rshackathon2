@@ -1,0 +1,3080 @@
+{
+    "DocumentType": "Cross Section Polygons",
+    "version": "3.3",
+    "pid": "635be7fa-0c71-21b4-1628-3a0e79f4115b",
+    "Unit": "ft",
+    "polygonsBySection": [
+                {
+            "sectionId": "id17593430259470.21737180143953405",
+            "sectionName": "Cross Section B",
+            "imagePreview": "https://ilogweb.blob.core.windows.net/rslog-crosssections/635be7fa-0c71-21b4-1628-3a0e79f4115b/id17593430259470.21737180143953405_p.png",
+            "imageReport": "https://ilogweb.blob.core.windows.net/rslog-crosssections/635be7fa-0c71-21b4-1628-3a0e79f4115b/id17593430259470.21737180143953405_h.png",
+            "polygons": [
+                {
+                    "color": "a52a00",
+                    "symbol": "A-3",
+                    "symbolDescription": "Fine sand",
+                    "points3D": [
+                        {"vertex": [438, 1851, 206.099]},
+                        {"vertex": [438, 1851, 184.101]},
+                        {"vertex": [0, 2302, 193.599]},
+                        {"vertex": [0, 2302, 205.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 518.999]},
+                        {"vertex": [628.548, 497.001]},
+                        {"vertex": [0, 506.499]},
+                        {"vertex": [0, 518.501]}
+                    ]
+                },
+                {
+                    "color": "a52a00",
+                    "symbol": "A-3",
+                    "symbolDescription": "Fine sand",
+                    "points3D": [
+                        {"vertex": [438, 1851, 184.101]},
+                        {"vertex": [438, 1851, 206.099]},
+                        {"vertex": [726, 1670, 193.17]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 497.001]},
+                        {"vertex": [628.548, 518.999]},
+                        {"vertex": [968.314, 506.07]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [438, 1851, 184.101]},
+                        {"vertex": [438, 1851, 160.601]},
+                        {"vertex": [0, 2302, 169.6]},
+                        {"vertex": [0, 2302, 193.599]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 497.001]},
+                        {"vertex": [628.548, 473.501]},
+                        {"vertex": [0, 482.5]},
+                        {"vertex": [0, 506.499]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [439, 1850.5, 160.601]},
+                        {"vertex": [439, 1850.5, 184.101]},
+                        {"vertex": [726.5, 1669.75, 193.17]},
+                        {"vertex": [1243, 1345, 196.536]},
+                        {"vertex": [1865, 954.25, 184.101]},
+                        {"vertex": [1865, 954.25, 186.099]},
+                        {"vertex": [1865, 954.25, 146.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 473.501]},
+                        {"vertex": [628.548, 497.001]},
+                        {"vertex": [968.314, 506.07]},
+                        {"vertex": [1578.396, 509.436]},
+                        {"vertex": [2313.11, 497.001]},
+                        {"vertex": [2313.11, 498.999]},
+                        {"vertex": [2313.11, 459.501]}
+                    ]
+                },
+                {
+                    "color": "ff6820",
+                    "symbol": "A-4",
+                    "symbolDescription": "Silty soil",
+                    "points3D": [
+                        {"vertex": [438, 1851, 160.601]},
+                        {"vertex": [438, 1851, 150.099]},
+                        {"vertex": [0, 2302, 157.901]},
+                        {"vertex": [0, 2302, 169.6]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 473.501]},
+                        {"vertex": [628.548, 462.999]},
+                        {"vertex": [0, 470.801]},
+                        {"vertex": [0, 482.5]}
+                    ]
+                },
+                {
+                    "color": "ff6820",
+                    "symbol": "A-4",
+                    "symbolDescription": "Silty soil",
+                    "points3D": [
+                        {"vertex": [1901, 931.5, 146.601]},
+                        {"vertex": [1901, 931.5, 135.601]},
+                        {"vertex": [1865, 954.25, 135.601]},
+                        {"vertex": [439, 1850.5, 150.099]},
+                        {"vertex": [439, 1850.5, 160.601]},
+                        {"vertex": [1865, 954.25, 146.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 459.501]},
+                        {"vertex": [2355.611, 448.501]},
+                        {"vertex": [2313.11, 448.501]},
+                        {"vertex": [628.548, 462.999]},
+                        {"vertex": [628.548, 473.501]},
+                        {"vertex": [2313.11, 459.501]}
+                    ]
+                },
+                {
+                    "color": "ff6820",
+                    "symbol": "A-4",
+                    "symbolDescription": "Silty soil",
+                    "points3D": [
+                        {"vertex": [1902, 931, 135.601]},
+                        {"vertex": [1902, 931, 146.601]},
+                        {"vertex": [1929, 898, 146.601]},
+                        {"vertex": [2659, 0, 118.799]},
+                        {"vertex": [2659, 0, 103.799]},
+                        {"vertex": [2463.5, 240.25, 97.848]},
+                        {"vertex": [1929, 898, 135.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 448.501]},
+                        {"vertex": [2355.611, 459.501]},
+                        {"vertex": [2398.11, 459.501]},
+                        {"vertex": [3555.694, 431.699]},
+                        {"vertex": [3555.694, 416.699]},
+                        {"vertex": [3245.84, 410.748]},
+                        {"vertex": [2398.11, 448.501]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [438, 1851, 150.099]},
+                        {"vertex": [438, 1851, 76.099]},
+                        {"vertex": [0, 2302, 74.6]},
+                        {"vertex": [0, 2302, 157.901]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 462.999]},
+                        {"vertex": [628.548, 388.999]},
+                        {"vertex": [0, 387.5]},
+                        {"vertex": [0, 470.801]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1901, 931.5, 135.601]},
+                        {"vertex": [1901, 931.5, 111.601]},
+                        {"vertex": [1865, 954.25, 111.601]},
+                        {"vertex": [1619.5, 1108.5, 101.198]},
+                        {"vertex": [439, 1850.5, 76.099]},
+                        {"vertex": [439, 1850.5, 150.099]},
+                        {"vertex": [1865, 954.25, 135.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 448.501]},
+                        {"vertex": [2355.611, 424.501]},
+                        {"vertex": [2313.11, 424.501]},
+                        {"vertex": [2023.136, 414.098]},
+                        {"vertex": [628.548, 388.999]},
+                        {"vertex": [628.548, 462.999]},
+                        {"vertex": [2313.11, 448.501]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1902, 931, 111.601]},
+                        {"vertex": [1902, 931, 135.601]},
+                        {"vertex": [1929, 898, 135.601]},
+                        {"vertex": [2463.5, 240.25, 97.848]},
+                        {"vertex": [2659, 0, 92.799]},
+                        {"vertex": [2659, 0, 77.799]},
+                        {"vertex": [2159, 614.75, 98.734]},
+                        {"vertex": [1929, 898, 111.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 424.501]},
+                        {"vertex": [2355.611, 448.501]},
+                        {"vertex": [2398.11, 448.501]},
+                        {"vertex": [3245.84, 410.748]},
+                        {"vertex": [3555.694, 405.699]},
+                        {"vertex": [3555.694, 390.699]},
+                        {"vertex": [2763.241, 411.634]},
+                        {"vertex": [2398.11, 424.501]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-7",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [438, 1851, 76.099]},
+                        {"vertex": [438, 1851, 32.901]},
+                        {"vertex": [0, 2302, 36.201]},
+                        {"vertex": [0, 2302, 74.6]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 388.999]},
+                        {"vertex": [628.548, 345.801]},
+                        {"vertex": [0, 349.101]},
+                        {"vertex": [0, 387.5]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-7",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [1901, 931.5, 56.099]},
+                        {"vertex": [1901, 931.5, 17.599]},
+                        {"vertex": [1865, 954.25, 17.599]},
+                        {"vertex": [439, 1850.5, 32.901]},
+                        {"vertex": [439, 1850.5, 76.099]},
+                        {"vertex": [1865, 954.25, 56.099]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 368.999]},
+                        {"vertex": [2355.611, 330.499]},
+                        {"vertex": [2313.11, 330.499]},
+                        {"vertex": [628.548, 345.801]},
+                        {"vertex": [628.548, 388.999]},
+                        {"vertex": [2313.11, 368.999]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-7",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [1902, 931, 17.599]},
+                        {"vertex": [1902, 931, 56.099]},
+                        {"vertex": [1929, 898, 56.099]},
+                        {"vertex": [2449.5, 257.75, 70.922]},
+                        {"vertex": [2659, 0, 67.799]},
+                        {"vertex": [2659, 0, 27.799]},
+                        {"vertex": [1929, 898, 17.599]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 330.499]},
+                        {"vertex": [2355.611, 368.999]},
+                        {"vertex": [2398.11, 368.999]},
+                        {"vertex": [3223.488, 383.822]},
+                        {"vertex": [3555.694, 380.699]},
+                        {"vertex": [3555.694, 340.699]},
+                        {"vertex": [2398.11, 330.499]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [438, 1851, 32.901]},
+                        {"vertex": [438, 1851, 6.001]},
+                        {"vertex": [0, 2302, 5.899]},
+                        {"vertex": [0, 2302, 36.201]}
+                    ],
+                    "points2D": [
+                        {"vertex": [628.548, 345.801]},
+                        {"vertex": [628.548, 318.901]},
+                        {"vertex": [0, 318.799]},
+                        {"vertex": [0, 349.101]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1901, 931.5, 17.599]},
+                        {"vertex": [1901, 931.5, 0]},
+                        {"vertex": [1865, 954.25, 0]},
+                        {"vertex": [439, 1850.5, 6.001]},
+                        {"vertex": [439, 1850.5, 32.901]},
+                        {"vertex": [1865, 954.25, 17.599]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 330.499]},
+                        {"vertex": [2355.611, 312.9]},
+                        {"vertex": [2313.11, 312.9]},
+                        {"vertex": [628.548, 318.901]},
+                        {"vertex": [628.548, 345.801]},
+                        {"vertex": [2313.11, 330.499]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1902, 931, 0]},
+                        {"vertex": [1902, 931, 17.599]},
+                        {"vertex": [1929, 898, 17.599]},
+                        {"vertex": [2659, 0, 27.799]},
+                        {"vertex": [2659, 0, 13.799]},
+                        {"vertex": [1929, 898, 0]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 312.9]},
+                        {"vertex": [2355.611, 330.499]},
+                        {"vertex": [2398.11, 330.499]},
+                        {"vertex": [3555.694, 340.699]},
+                        {"vertex": [3555.694, 326.699]},
+                        {"vertex": [2398.11, 312.9]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1865, 954.25, 102.1]},
+                        {"vertex": [1865, 954.25, 56.099]},
+                        {"vertex": [439, 1850.5, 76.099]},
+                        {"vertex": [1619.5, 1108.5, 101.198]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2313.11, 415]},
+                        {"vertex": [2023.136, 414.098]},
+                        {"vertex": [628.548, 388.999]},
+                        {"vertex": [2313.11, 368.999]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-6",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [1902, 931, 111.601]},
+                        {"vertex": [2159, 614.75, 98.734]},
+                        {"vertex": [1902, 931, 102.1]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 424.501]},
+                        {"vertex": [2763.241, 411.634]},
+                        {"vertex": [2355.611, 415]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-6",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [1902, 931, 111.601]},
+                        {"vertex": [1902, 931, 102.1]},
+                        {"vertex": [1620.5, 1108, 101.198]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 424.501]},
+                        {"vertex": [2023.136, 414.098]},
+                        {"vertex": [2355.611, 415]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1902, 931, 102.1]},
+                        {"vertex": [2159, 614.75, 98.734]},
+                        {"vertex": [2659, 0, 77.799]},
+                        {"vertex": [2449.5, 257.75, 70.922]},
+                        {"vertex": [1902, 931, 56.099]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 415]},
+                        {"vertex": [2763.241, 411.634]},
+                        {"vertex": [3555.694, 390.699]},
+                        {"vertex": [3223.488, 383.822]},
+                        {"vertex": [2355.611, 368.999]}
+                    ]
+                },
+                {
+                    "color": "0000ff",
+                    "symbol": "A-1",
+                    "symbolDescription": "Stone fragments, gravel, and sand",
+                    "points3D": [
+                        {"vertex": [2659, 0, 77.799]},
+                        {"vertex": [2659, 0, 67.799]},
+                        {"vertex": [2449.5, 257.75, 70.922]}
+                    ],
+                    "points2D": [
+                        {"vertex": [3555.694, 390.699]},
+                        {"vertex": [3223.488, 383.822]},
+                        {"vertex": [3555.694, 380.699]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-6",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [2659, 0, 103.799]},
+                        {"vertex": [2659, 0, 92.799]},
+                        {"vertex": [2463.5, 240.5, 97.848]}
+                    ],
+                    "points2D": [
+                        {"vertex": [3555.694, 416.699]},
+                        {"vertex": [3245.84, 410.748]},
+                        {"vertex": [3555.694, 405.699]}
+                    ]
+                },
+                {
+                    "color": "32cd32",
+                    "symbol": "A-7",
+                    "symbolDescription": "Clayey soil",
+                    "points3D": [
+                        {"vertex": [2659, 0, 177.799]},
+                        {"vertex": [2659, 0, 158.799]},
+                        {"vertex": [2376, 348.25, 156.024]},
+                        {"vertex": [1902, 931, 165.801]},
+                        {"vertex": [1902, 931, 179.6]},
+                        {"vertex": [2510.5, 182.25, 182.822]}
+                    ],
+                    "points2D": [
+                        {"vertex": [3555.694, 490.699]},
+                        {"vertex": [3320.587, 495.722]},
+                        {"vertex": [2355.611, 492.5]},
+                        {"vertex": [2355.611, 478.701]},
+                        {"vertex": [3106.844, 468.924]},
+                        {"vertex": [3555.694, 471.699]}
+                    ]
+                },
+                {
+                    "color": "0000ff",
+                    "symbol": "A-1",
+                    "symbolDescription": "Stone fragments, gravel, and sand",
+                    "points3D": [
+                        {"vertex": [2659, 0, 158.799]},
+                        {"vertex": [2659, 0, 147.799]},
+                        {"vertex": [2376, 348.25, 156.024]}
+                    ],
+                    "points2D": [
+                        {"vertex": [3555.694, 471.699]},
+                        {"vertex": [3106.844, 468.924]},
+                        {"vertex": [3555.694, 460.699]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1902, 931, 165.801]},
+                        {"vertex": [2376, 348.25, 156.024]},
+                        {"vertex": [2659, 0, 147.799]},
+                        {"vertex": [2659, 0, 118.799]},
+                        {"vertex": [1902, 931, 146.601]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 478.701]},
+                        {"vertex": [3106.844, 468.924]},
+                        {"vertex": [3555.694, 460.699]},
+                        {"vertex": [3555.694, 431.699]},
+                        {"vertex": [2355.611, 459.501]}
+                    ]
+                },
+                {
+                    "color": "ff6820",
+                    "symbol": "A-4",
+                    "symbolDescription": "Silty soil",
+                    "points3D": [
+                        {"vertex": [2659, 0, 187.799]},
+                        {"vertex": [2659, 0, 177.799]},
+                        {"vertex": [2510.5, 182.5, 182.822]}
+                    ],
+                    "points2D": [
+                        {"vertex": [3555.694, 500.699]},
+                        {"vertex": [3320.587, 495.722]},
+                        {"vertex": [3555.694, 490.699]}
+                    ]
+                },
+                {
+                    "color": "ffd700",
+                    "symbol": "A-2",
+                    "symbolDescription": "Silty or clayey gravel and sand",
+                    "points3D": [
+                        {"vertex": [1902, 931, 186.099]},
+                        {"vertex": [2321, 415.5, 197.067]},
+                        {"vertex": [2659, 0, 202.799]},
+                        {"vertex": [2659, 0, 187.799]},
+                        {"vertex": [2510.5, 182.25, 182.822]},
+                        {"vertex": [1902, 931, 179.6]}
+                    ],
+                    "points2D": [
+                        {"vertex": [2355.611, 498.999]},
+                        {"vertex": [3020.151, 509.967]},
+                        {"vertex": [3555.694, 515.699]},
+                        {"vertex": [3555.694, 500.699]},
+                        {"vertex": [3320.587, 495.722]},
+                        {"vertex": [2355.611, 492.5]}
+                    ]
+                },
+                {
+                    "color": "a52a00",
+                    "symbol": "A-3",
+                    "symbolDescription": "Fine sand",
+                    "points3D": [
+                        {"vertex": [2659, 0, 208.799]},
+                        {"vertex": [2659, 0, 202.799]},
+                        {"vertex": [2321, 415.5, 197.067]}
+                    ],
+                    "points2D": [
+                        {"vertex": [3555.694, 521.699]},
+                        {"vertex": [3020.151, 509.967]},
+                        {"vertex": [3555.694, 515.699]}
+                    ]
+                }
+            ],
+            "groundWaterLines": [
+                {"points2D": [[-168.96, 494.675], [722.067, 495.21], [1084.245, 492.539], [1565.013, 495.21]]}
+            ],
+            "boreholes": [
+                {
+                    "boreholeId": "29f7c6a0-0112-1850-c2d2-3a0e79f41193",
+                    "name": "B-59",
+                    "x": 0,
+                    "elevation": 518.5,
+                    "depth": 199.7,
+                    "waterDepth": 38.9
+                },
+                {
+                    "boreholeId": "a34462cd-9861-67d6-0e5c-3a0e79f41193",
+                    "name": "B-57",
+                    "x": 628.548,
+                    "elevation": 519,
+                    "depth": 200.1,
+                    "waterDepth": 35.5
+                },
+                {
+                    "boreholeId": "5b80247d-b395-cd07-62e8-3a1dcdbf9693",
+                    "name": "B-53(1)",
+                    "x": 2067.39,
+                    "elevation": 470.5,
+                    "depth": 218,
+                    "waterDepth": 5.6
+                },
+                {
+                    "boreholeId": "c5f3a8d6-87cc-c6f9-303d-3a0e79f41193",
+                    "name": "B-55",
+                    "x": 2355.611,
+                    "elevation": 499,
+                    "depth": 186.3,
+                    "waterDepth": null
+                },
+                {
+                    "boreholeId": "d21781a4-1cb8-3d34-c912-3a0e79f41193",
+                    "name": "B-56",
+                    "x": 3555.694,
+                    "elevation": 521.7,
+                    "depth": 195,
+                    "waterDepth": 9.5
+                }
+            ]
+        }
+    ],
+    "boreholesData": [
+        {
+            "th_id": "340d9f10-9774-0b6a-86ce-3a0e79f41193",
+            "th_title": "B-53",
+            "th_type": "Drill Hole",
+            "th_depth": 218,
+            "th_coordinates": "38.9796775948, -120.9910191597, 218.1",
+            "th_viewer_coordinates": "3437, 1120, 218.1",
+            "th_latitude": 38.9796775948,
+            "th_longitude": -120.9910191597,
+            "th_easting": 3437,
+            "th_northing": 1120,
+            "th_ground_water_depth": 5.6,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "59435bc1-36e1-0ac1-8aa1-3a0e79f41193",
+                    "layer_to": 5,
+                    "layer_from": 0,
+                    "layer_title": "Sand Really Long Title for This Layer",
+                    "layer_descr": "AGGREGATE BASE      Fill   [Fill]                                            (FILL).   (FILL).",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d92bd498-9a88-5bd1-4982-3a0e79f41193",
+                    "layer_to": 32.5,
+                    "layer_from": 5,
+                    "layer_title": "Sand with Shell Sand Really Long Title for This Layer",
+                    "layer_descr": "Poorly-graded SAND with CLAY   (sp-sc);         very loose;   laminated;      grayish brown;   dry to moist;    thinly bedded with laminations of SILT (MH);                             stiff;   blocky;   strong cementation.   grey;   damp to moist;             some coarse SAND;          trace fines,    high; (high dry strength); none dilatancy; low toughness.             ",
+                    "layer_symbol": null,
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "63c86a49-d132-0672-7255-3a0e79f41193",
+                    "layer_to": 37.5,
+                    "layer_from": 32.5,
+                    "layer_title": "Till-Like Soil",
+                    "layer_descr": "Lean CLAY   (cl/ml);         soft;         grayish brown;   dry to moist;   moderately bedded with laminations of SAND (SP-SC)    CLAY (CL/ML);  little fine GRAVEL;          trace fine SAND;          25%  COBBLES;            SAND   (sp-sc);            fissured;      dark bluish gray;   damp to moist;          trace fine GRAVEL.                   ",
+                    "layer_symbol": "CL-ML",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "6c6a542f-f979-ffc6-c9db-3a0e79f41193",
+                    "layer_to": 47.5,
+                    "layer_from": 37.5,
+                    "layer_title": "AGS",
+                    "layer_descr": "[202] SILTY CLAY      Alluvium   [SILT &amp; CLAY]   stiff;         grayish brown;   dry to moist.",
+                    "layer_symbol": "202",
+                    "layer_forecolor": "#ffad5b",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "6d5efd72-b508-e7c6-e18a-3a0e79f41193",
+                    "layer_to": 55.5,
+                    "layer_from": 47.5,
+                    "layer_title": "Silt & Sand",
+                    "layer_descr": "Elastic SILT with SAND   (MH);   Cat 1   [Unit 1-2]   Very Stiff;      Strong cementation,   grayish brown;   Dry to Moist;   SAND (sc); medium; homogeneous; strong cementation.  dry to damp;   trace fines,    medium.       Moderately bedded with laminations of SAND (SC)    SILT (MH); Some Coarse GRAVEL, Angular, Elongated;        Little Fines,    Low; (Medium dry strength); Rapid dilatancy; High toughness;    Trace Fine to Medium SAND, Subrounded;        20% BRECCIA COBBLES 3\" , Rounded, Decomposed, Flat, Very Hard 25% MUDFLOW BOULDERS. , Rounded, Intensely Weathered to Decomposed, Elongated, Hard                     ",
+                    "layer_symbol": "MH",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "693a9c82-235e-f47c-611a-3a0e79f41193",
+                    "layer_to": 60.5,
+                    "layer_from": 55.5,
+                    "layer_title": "BURMISTER",
+                    "layer_descr": "Gray SILT &amp; CLAY, trace medium- silt, little fine+ to coarse- pocket sand, trace fine+ to coarse gravel, and clayey silt, some clay, some clay &amp; silt, very stiff.test one two",
+                    "layer_symbol": "CL-ML",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "3e3b5d4b-8bd3-0b9d-7070-3a0e79f41193",
+                    "layer_to": 72,
+                    "layer_from": 60.5,
+                    "layer_title": "BURMISTER",
+                    "layer_descr": "Grayish brown CLAYEY SILT, coarse+ to fine+ trace sand, dry to moist, very stiff.",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9a99d3b0-544f-8f14-7664-3a0e79f41193",
+                    "layer_to": 81.5,
+                    "layer_from": 72,
+                    "layer_title": "AASHTO",
+                    "layer_descr": "CLAYEY soils (pi>10%, ll>40%, and >35% passing no. 200); very stiff;   grayish brown.        ",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "daf877cd-949c-f34f-b701-3a0e79f41193",
+                    "layer_to": 87.5,
+                    "layer_from": 81.5,
+                    "layer_title": "USCS",
+                    "layer_descr": "GRAVELLY ORGANIC CLAY   (ol);         very stiff;         brownish gray;      CLAY   (ch);         medium;   laminated;   strong cementation.   brown;   dry to damp;       trace coarse SAND, subangular.         moderately bedded with thin interbeds of CLAY (CH)    CLAY (OL); 62% fines,    high.                           ",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "b90e1bb5-c4c2-3f6d-ddac-3a0e79f41193",
+                    "layer_to": 95.5,
+                    "layer_from": 87.5,
+                    "layer_title": "High Plastic Clay",
+                    "layer_descr": "INORGANIC CLAYS of low to medium plasticity, GRAVELLY CLAYS, SANDY CLAYS, SILTY and lean CLAYS    (ci);         soft;   fissured;   strong cementation,   grayish brown;   dry to moist.",
+                    "layer_symbol": "CI",
+                    "layer_forecolor": "#000000",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "de286694-e459-7705-2c03-3a0e79f41193",
+                    "layer_to": 142.5,
+                    "layer_from": 95.5,
+                    "layer_title": "Basic Mode",
+                    "layer_descr": "this is a simple text using the basic view for testing this is a simple text using the basic view for testing this is a simple text using the basic view for testing this is a simple text using the basic view for testing ",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "5453a696-13a9-0640-ff45-3a0e79f41193",
+                    "layer_to": 152,
+                    "layer_from": 142.5,
+                    "layer_title": "cobbles & boulders",
+                    "layer_descr": "SILTY, CLAYEY SAND   (sc-sm);         medium;   blocky;      grayish brown;   dry;            15% AGGLOMERATE COBBLES, subangular, intensely weathered to decomposed, flat, extremely hard; 25% PUMICE BOULDERS 8 to 9 inches, fresh, hard.",
+                    "layer_symbol": "SC-SM",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "28795136-b948-bf30-bb56-3a16a53d0dec",
+                    "layer_to": 154.5,
+                    "layer_from": 152,
+                    "layer_title": null,
+                    "layer_descr": "Igneous Rock (Rhyolite); Mottled Dusky Green to Black. ",
+                    "layer_symbol": "Basaltic Flows",
+                    "layer_forecolor": "#7fffd4",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "33c1f72a-8ff3-133a-e79d-3a199a6f4370",
+                    "layer_to": 217,
+                    "layer_from": 154.5,
+                    "layer_title": "ROCK",
+                    "layer_descr": "METAMORPHIC ROCK (AMPHIBOLITE); medium-grained (bc); very thickly bedded; brown; slightly weathered,   (F1mtD, 12, moderately open, 0.5 - 2.5mm  (open), limonite, fresh to slightly weathered, moderately hard, moderately healed, slightly rough (defined ridges)); spall and slake to a fissile pile;   moderately bedded with thin interbeds of LATITE;   coarse-grained (ab); very thickly bedded; grey;     no visible activity   (GRAVELLY lean CLAY   (cl);         soft;   fissured;   moderate cementation,   grey;   dry to moist;       some coarse to fine GRAVEL.).  ",
+                    "layer_symbol": "SW",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "5b80247d-b395-cd07-62e8-3a1dcdbf9693",
+            "th_title": "B-53(1)",
+            "th_type": "Drill Hole",
+            "th_depth": 218,
+            "th_coordinates": "38.9796785948, -120.9910181597, 218",
+            "th_viewer_coordinates": "3437, 1120, 218",
+            "th_latitude": 38.9796775948,
+            "th_longitude": -120.9910191597,
+            "th_easting": 3437,
+            "th_northing": 1120,
+            "th_ground_water_depth": 5.6,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "97bb2108-9382-2a25-4a62-3a1dcdbf979f",
+                    "layer_to": 5,
+                    "layer_from": 0,
+                    "layer_title": "Sand Really Long Title for This Layer",
+                    "layer_descr": "AGGREGATE BASE      Fill   [Fill]                                            (FILL).   (FILL).",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d1f3b11b-36f2-d7dd-5280-3a1dcdbf979e",
+                    "layer_to": 32.5,
+                    "layer_from": 5,
+                    "layer_title": "Sand with Shell Sand Really Long Title for This Layer",
+                    "layer_descr": "Poorly-graded SAND with CLAY   (sp-sc);         dry to moist;   grayish brown;   very loose;   laminated.",
+                    "layer_symbol": "Concrete",
+                    "layer_forecolor": "#8b8b00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "a3d57262-db9c-dbd1-acf4-3a1dcdbf979e",
+                    "layer_to": 37.5,
+                    "layer_from": 32.5,
+                    "layer_title": "Till-Like Soil",
+                    "layer_descr": "Lean CLAY   (cl/ml);         dry to moist;   grayish brown;   soft;                little fine GRAVEL;          trace fine SAND;          25%  COBBLES.",
+                    "layer_symbol": "CL-ML",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "379751a5-a40e-a0aa-97b2-3a1dcdbf979f",
+                    "layer_to": 47.5,
+                    "layer_from": 37.5,
+                    "layer_title": "AGS",
+                    "layer_descr": "[202] SILTY CLAY      Alluvium   [SILT &amp; CLAY]   stiff;         grayish brown;   dry to moist.",
+                    "layer_symbol": "202",
+                    "layer_forecolor": "#ffad5b",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e213be62-9f8f-b92e-e079-3a1dcdbf979f",
+                    "layer_to": 55.5,
+                    "layer_from": 47.5,
+                    "layer_title": "Silt & Sand",
+                    "layer_descr": "Elastic SILT with SAND   (mh);         dry to moist;   grayish brown;   very stiff;      strong cementation,          trace coarse GRAVEL, angular, flat;        some fine to medium SAND, subrounded;         little fines,    low plasticity; (medium dry strength); rapid dilatancy; high toughness;   20% BRECCIA COBBLES 3\", rounded, decomposed, flat, very hard; 25% MUDFLOW BOULDERS, rounded, intensely weathered to decomposed, elongated, hard.",
+                    "layer_symbol": "MH",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d4009b59-2609-66b8-ea59-3a1dcdbf979e",
+                    "layer_to": 60.5,
+                    "layer_from": 55.5,
+                    "layer_title": "BURMISTER",
+                    "layer_descr": "Gray SILT &amp; CLAY, trace medium- silt, little fine+ to coarse- pocket sand, trace fine+ to coarse gravel, and clayey silt, some clay, some clay &amp; silt, very stiff.test one two",
+                    "layer_symbol": "CL-ML",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "4b42f047-4f6d-a873-a08a-3a1dcdbf979e",
+                    "layer_to": 72,
+                    "layer_from": 60.5,
+                    "layer_title": "BURMISTER",
+                    "layer_descr": "Grayish brown CLAYEY SILT, coarse+ to fine+ trace sand, dry to moist, very stiff.",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "1ff25932-7b6f-d90b-6c0e-3a1dcdbf979e",
+                    "layer_to": 81.5,
+                    "layer_from": 72,
+                    "layer_title": "AASHTO",
+                    "layer_descr": "CLAYEY soils (pi>10%, ll>40%, and >35% passing no. 200); very stiff;   grayish brown.        ",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "5cc05260-4e5d-9d21-5010-3a1dcdbf979f",
+                    "layer_to": 87.5,
+                    "layer_from": 81.5,
+                    "layer_title": "USCS",
+                    "layer_descr": "GRAVELLY ORGANIC CLAY   (ol);         very stiff;         brownish gray;      CLAY   (ch);         medium;   laminated;   strong cementation.   brown;   dry to damp;       trace coarse SAND, subangular.         moderately bedded with thin interbeds of CLAY (CH)    CLAY (OL); 62% fines,    high.                           ",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "ccba58d6-d246-5597-5151-3a1dcdbf979f",
+                    "layer_to": 95.5,
+                    "layer_from": 87.5,
+                    "layer_title": "High Plastic Clay",
+                    "layer_descr": "INORGANIC CLAYS of low to medium plasticity, GRAVELLY CLAYS, SANDY CLAYS, SILTY and lean CLAYS    (ci);         soft;   fissured;   strong cementation,   grayish brown;   dry to moist.",
+                    "layer_symbol": "CI",
+                    "layer_forecolor": "#000000",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9e6b058e-ca7e-b2de-57b9-3a1dcdbf979e",
+                    "layer_to": 142.5,
+                    "layer_from": 95.5,
+                    "layer_title": "Basic Mode",
+                    "layer_descr": "this is a simple text using the basic view for testing this is a simple text using the basic view for testing this is a simple text using the basic view for testing this is a simple text using the basic view for testing ",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "964468c6-0116-8c76-ef26-3a1dcdbf979f",
+                    "layer_to": 152,
+                    "layer_from": 142.5,
+                    "layer_title": "cobbles & boulders",
+                    "layer_descr": "SILTY, CLAYEY SAND   (sc-sm);         medium;   blocky;      grayish brown;   dry;            15% AGGLOMERATE COBBLES, subangular, intensely weathered to decomposed, flat, extremely hard; 25% PUMICE BOULDERS 8 to 9 inches, fresh, hard.",
+                    "layer_symbol": "SC-SM",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "b8861111-a2dc-0e96-e76b-3a1dcdbf979f",
+                    "layer_to": 154.5,
+                    "layer_from": 152,
+                    "layer_title": null,
+                    "layer_descr": "Igneous Rock (Rhyolite); Mottled Dusky Green to Black. ",
+                    "layer_symbol": "Basaltic_Flows",
+                    "layer_forecolor": "#7fffd4",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "06c333d0-f77f-373c-33c2-3a1dcdbf979f",
+                    "layer_to": 217,
+                    "layer_from": 154.5,
+                    "layer_title": "ROCK",
+                    "layer_descr": "METAMORPHIC ROCK (AMPHIBOLITE); medium-grained (bc); very thickly bedded; brown; slightly weathered,   (F1mtD, 12, moderately open, 0.5 - 2.5mm  (open), limonite, fresh to slightly weathered, moderately hard, moderately healed, slightly rough (defined ridges)); spall and slake to a fissile pile;   moderately bedded with thin interbeds of LATITE;   coarse-grained (ab); very thickly bedded; grey;     no visible activity   (GRAVELLY lean CLAY   (cl);         soft;   fissured;   moderate cementation,   grey;   dry to moist;       some coarse to fine GRAVEL.).  ",
+                    "layer_symbol": "SW",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "f6154a63-a618-a5db-b386-3a1a879024af",
+            "th_title": "B-54",
+            "th_type": "Drill Hole",
+            "th_depth": 48,
+            "th_coordinates": "38.9816873428, -120.9900336283, 267.5",
+            "th_viewer_coordinates": "3709, 1855, 267.5",
+            "th_latitude": 38.9816873428,
+            "th_longitude": -120.9900336283,
+            "th_easting": 3709,
+            "th_northing": 1855,
+            "th_ground_water_depth": 1.5,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "c64afa1f-4aed-cd09-3285-3a1bd6943798",
+                    "layer_to": 44.5,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "GRAVELLY ORGANIC SILT   (ol);         wet 123;   grayish brown;   soft.",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8439cfb1-947e-1113-156d-3a1db95256dc",
+                    "layer_to": 48,
+                    "layer_from": 44.5,
+                    "layer_title": "Till-Like Soil",
+                    "layer_descr": "Poorly-graded SAND   (sp);                                                  Poorly-graded sand (SP)",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "602d5532-e5a8-90eb-5a56-3a0e79f41193",
+            "th_title": "B-54B",
+            "th_type": "Drill Hole",
+            "th_depth": 183.3,
+            "th_coordinates": "38.9816776338, -120.9889149886, 257",
+            "th_viewer_coordinates": "4027, 1855, 257",
+            "th_latitude": 38.9816776338,
+            "th_longitude": -120.9889149886,
+            "th_easting": 4027,
+            "th_northing": 1855,
+            "th_ground_water_depth": 5,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "143b506f-62a8-d749-6fa2-3a16e865acbd",
+                    "layer_to": 5,
+                    "layer_from": 3,
+                    "layer_title": null,
+                    "layer_descr": "   Laminated;   Moderate cementation;   55% Fines.              ",
+                    "layer_symbol": "CL-ML",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "81ba12e5-0a79-db22-a07c-3a16cdd1a308",
+                    "layer_to": 7,
+                    "layer_from": 5,
+                    "layer_title": null,
+                    "layer_descr": "  Stiff;   gray,    Trace Coarse GRAVEL;               High;      5% Ash flow COBBLES. 15 feet     ",
+                    "layer_symbol": null,
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9bbf008e-6384-1378-2385-3a16c970fc16",
+                    "layer_to": 12,
+                    "layer_from": 7,
+                    "layer_title": "",
+                    "layer_descr": "  Stiff;         20% Ash flow COBBLES. testing     ",
+                    "layer_symbol": null,
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d36a0a01-d101-b245-6346-3a0e79f41194",
+                    "layer_to": 19,
+                    "layer_from": 12,
+                    "layer_title": null,
+                    "layer_descr": "Poorly-graded SAND with CLAY (sp-sc); medium;  moderate cementation.  wet 123; moderately bedded with thin interbeds of SILT (mh). SAND (SP-SC);   coarse GRAVEL          15%  BOULDERS.   Moderately bedded with thin interbeds of elastic SILT (MH); Soft; Mottled Brownish Yellow to Dusky Red     SAND (SP-SC); (FILL). ",
+                    "layer_symbol": "SP-SC",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "cdd6a75d-db39-e82f-d806-3a0e79f41194",
+                    "layer_to": 29,
+                    "layer_from": 19,
+                    "layer_title": null,
+                    "layer_descr": "Gravelly organic soil (OL); Medium; Homogeneous; gray.    ",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8af0be4d-b28c-0637-e8b8-3a0e79f41194",
+                    "layer_to": 38.5,
+                    "layer_from": 29,
+                    "layer_title": null,
+                    "layer_descr": "Elastic SILT with SAND (MH); Very Stiff; Homogeneous; (Dry to Moist); gray;   Few Fine to Medium SAND, Rounded;          Trace Fine GRAVEL,  Flat.           ",
+                    "layer_symbol": "MH",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "94f43b76-0b3b-3c86-c112-3a0e79f41194",
+                    "layer_to": 48,
+                    "layer_from": 38.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Clayey Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2-6",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "fea382df-6d3f-7e64-24c3-3a0e79f41194",
+                    "layer_to": 75,
+                    "layer_from": 48,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "3600242c-7892-0630-58f6-3a0e79f41194",
+                    "layer_to": 84.5,
+                    "layer_from": 75,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy SILT",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "b6eeb60d-01e2-4822-123a-3a0e79f41194",
+                    "layer_to": 126,
+                    "layer_from": 84.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "33b01edb-9f67-2432-6a02-3a1850025557",
+                    "layer_to": 128,
+                    "layer_from": 126,
+                    "layer_title": "Till-Like Soil",
+                    "layer_descr": "Clayey soil with some sand and trace gravel",
+                    "layer_symbol": null,
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "f612b754-d17a-25fd-e810-3a153a83c578",
+                    "layer_to": 137,
+                    "layer_from": 135,
+                    "layer_title": null,
+                    "layer_descr": "Gravelly organic soil with SAND (OL); Moderately interlayered with laminations of  Soft; Fissured; Damp to Moist; Few Fines, High; (Low dry strength); None dilatancy.       ",
+                    "layer_symbol": "OL",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "6b4484bf-bb7b-ecc8-648b-3a0e79f41194",
+                    "layer_to": 170,
+                    "layer_from": 128,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "3bc2cad1-3f8c-a1a6-a4a7-3a0e79f41194",
+                    "layer_to": 175,
+                    "layer_from": 170,
+                    "layer_title": "",
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "aab82d68-d82c-c6dc-bc82-3a0e79f41194",
+                    "layer_to": 183.3,
+                    "layer_from": 175,
+                    "layer_title": "ROCK",
+                    "layer_descr": "Sedimentary Rock (Graywacke); (F1, 45 deg, 2 mm, Fresh to Slightly Weathered, Very Hard, Not Healed);Moderately bedded with moderate interbeds of Metamorphic Rock (Phyllite);  Very Coarse Grained or Pegmatitic (3/8 ≤ S inch); Slightly Weathered.  ",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "c5f3a8d6-87cc-c6f9-303d-3a0e79f41193",
+            "th_title": "B-55",
+            "th_type": "Drill Hole",
+            "th_depth": 186.3,
+            "th_coordinates": "38.9791516243, -120.9902139734, 246.5",
+            "th_viewer_coordinates": "3668, 931, 246.5",
+            "th_latitude": 38.9791516243,
+            "th_longitude": -120.9902139734,
+            "th_easting": 3668,
+            "th_northing": 931,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "361ce207-ecba-464e-8a08-3a0e79f41193",
+                    "layer_to": 2,
+                    "layer_from": 0,
+                    "layer_title": "",
+                    "layer_descr": "Gray Tan Silty Fine to Coarse SAND with Some Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "68ed33ab-33c3-34fa-2b3c-3a0e79f41193",
+                    "layer_to": 6.5,
+                    "layer_from": 2,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e28b263a-2441-3b50-e5dd-3a0e79f41193",
+                    "layer_to": 10.5,
+                    "layer_from": 6.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "503d4a04-f05f-0891-eacb-3a0e79f41193",
+                    "layer_to": 15.5,
+                    "layer_from": 10.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine Sand",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d832a39a-1aef-f0c7-fd50-3a0e79f41193",
+                    "layer_to": 20.3,
+                    "layer_from": 15.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e888d867-20e0-b4ed-75f9-3a0e79f41193",
+                    "layer_to": 39.5,
+                    "layer_from": 20.3,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "fb0050d9-bc02-3d44-11b4-3a0e79f41193",
+                    "layer_to": 50.5,
+                    "layer_from": 39.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "81bbf2f7-697b-3aa3-f9ea-3a0e79f41193",
+                    "layer_to": 74.5,
+                    "layer_from": 50.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "811ca4e5-709e-cd48-b8bc-3a0e79f41193",
+                    "layer_to": 84,
+                    "layer_from": 74.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-6",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "c4d6206f-919c-2623-9e82-3a0e79f41193",
+                    "layer_to": 130,
+                    "layer_from": 84,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine to Coarse SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "06a4e855-2ad5-5c8f-8126-3a0e79f41193",
+                    "layer_to": 168.5,
+                    "layer_from": 130,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "31fef10a-6e5a-25af-38d7-3a0e79f41193",
+                    "layer_to": 186.1,
+                    "layer_from": 168.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "d21781a4-1cb8-3d34-c912-3a0e79f41193",
+            "th_title": "B-56",
+            "th_type": "Drill Hole",
+            "th_depth": 195,
+            "th_coordinates": "38.9765723093, -120.9875876286, 269.2",
+            "th_viewer_coordinates": "4425, 0, 269.2",
+            "th_latitude": 38.9765723093,
+            "th_longitude": -120.9875876286,
+            "th_easting": 4425,
+            "th_northing": 0,
+            "th_ground_water_depth": 9.5,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "e9f6bec1-22f8-1e41-6cad-3a0e79f41193",
+                    "layer_to": 6,
+                    "layer_from": 0,
+                    "layer_title": "",
+                    "layer_descr": "Tan Fine to Coarse SAND",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "be086b3a-ca64-c36e-bd66-3a0e79f41193",
+                    "layer_to": 21,
+                    "layer_from": 6,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "a308666a-7f6c-38bc-3633-3a0e79f41193",
+                    "layer_to": 31,
+                    "layer_from": 21,
+                    "layer_title": "",
+                    "layer_descr": "Green Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "7bffbbd4-46d8-ad37-94c3-3a0e79f41193",
+                    "layer_to": 50,
+                    "layer_from": 31,
+                    "layer_title": "",
+                    "layer_descr": "Green to Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-6",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "ba039358-3e1c-928f-f6fd-3a0e79f41193",
+                    "layer_to": 61,
+                    "layer_from": 50,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine to Coarse SAND with Trace of Silt and Shell Fragments",
+                    "layer_symbol": "A-1",
+                    "layer_forecolor": "#0000ff",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "39ae40fe-a457-3cd3-58c9-3a0e79f41193",
+                    "layer_to": 70,
+                    "layer_from": 61,
+                    "layer_title": "",
+                    "layer_descr": "Green Gray Silty Clayey Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "f8a6c0e5-f1ec-d45f-29b6-3a0e79f41193",
+                    "layer_to": 90,
+                    "layer_from": 70,
+                    "layer_title": "",
+                    "layer_descr": "Green Gray Silty Clayey Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e4067e22-b9a2-b37b-a560-3a0e79f41193",
+                    "layer_to": 105,
+                    "layer_from": 90,
+                    "layer_title": "",
+                    "layer_descr": "Gray Clayey Fine Sandy SILT with Trace of Shell Fragments",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "81fee90d-6e99-fb1e-7b63-3a0e79f41193",
+                    "layer_to": 116,
+                    "layer_from": 105,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine Sandy CLAY",
+                    "layer_symbol": "A-6",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "5580b2ed-8085-58e9-f293-3a0e79f41193",
+                    "layer_to": 126,
+                    "layer_from": 116,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "fae22ae9-b39e-b7ec-4bf7-3a0e79f41193",
+                    "layer_to": 131,
+                    "layer_from": 126,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "13989e71-c3cf-18c5-840f-3a0e79f41193",
+                    "layer_to": 141,
+                    "layer_from": 131,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine to Coarse SAND",
+                    "layer_symbol": "A-1",
+                    "layer_forecolor": "#0000ff",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "77853cf4-41aa-29c7-8f2c-3a0e79f41193",
+                    "layer_to": 181,
+                    "layer_from": 141,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8b8b264e-de3e-f89c-158c-3a0e79f41193",
+                    "layer_to": 195,
+                    "layer_from": 181,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "a34462cd-9861-67d6-0e5c-3a0e79f41193",
+            "th_title": "B-57",
+            "th_type": "Drill Hole",
+            "th_depth": 200.1,
+            "th_coordinates": "38.9817221645, -120.9953279791, 266.5",
+            "th_viewer_coordinates": "2204, 1851, 266.5",
+            "th_latitude": 38.9817221645,
+            "th_longitude": -120.9953279791,
+            "th_easting": 2204,
+            "th_northing": 1851,
+            "th_ground_water_depth": 35.5,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "46d70ad3-404f-5f0f-73cb-3a0e79f41193",
+                    "layer_to": 22,
+                    "layer_from": 0,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "262e6d5a-8869-7a09-e2f7-3a0e79f41193",
+                    "layer_to": 41,
+                    "layer_from": 22,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine to Coarse SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "197d6c56-4750-4d9d-81d2-3a0e79f41193",
+                    "layer_to": 45.5,
+                    "layer_from": 41,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Coarse to Fine SAND with Trace of Shell Fragments and Gravel (1/8\" to 1/4\" Diameter)",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "2238e58d-f2be-7a63-2056-3a0e79f41193",
+                    "layer_to": 56,
+                    "layer_from": 45.5,
+                    "layer_title": "",
+                    "layer_descr": "Green to Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-6",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "99f13f00-cd57-daba-32ec-3a0e79f41193",
+                    "layer_to": 130,
+                    "layer_from": 56,
+                    "layer_title": "",
+                    "layer_descr": "Green to Gray Silty Fine to Coarse  SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "cbf5f592-055a-6302-812c-3a0e79f41193",
+                    "layer_to": 173.2,
+                    "layer_from": 130,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "0f3b13d0-e947-b222-170c-3a0e79f41193",
+                    "layer_to": 186,
+                    "layer_from": 173.2,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "455942fe-e3d5-94f3-43db-3a0e79f41193",
+                    "layer_to": 191,
+                    "layer_from": 186,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine to Coarse Sandy CLAY",
+                    "layer_symbol": "A-6",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "44755c5b-33ae-a642-3697-3a0e79f41193",
+                    "layer_to": 200.1,
+                    "layer_from": 191,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine to Coarse SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "d796511b-75cd-39de-bc9f-3a0e79f41193",
+            "th_title": "B-58",
+            "th_type": "Drill Hole",
+            "th_depth": 184.5,
+            "th_coordinates": "38.9832240897, -120.995313741, 272.5",
+            "th_viewer_coordinates": "2202, 2398, 272.5",
+            "th_latitude": 38.9832240897,
+            "th_longitude": -120.995313741,
+            "th_easting": 2202,
+            "th_northing": 2398,
+            "th_ground_water_depth": 13,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "8eac7bd4-10c5-07e1-c43b-3a1cb2ade849",
+                    "layer_to": 0.25,
+                    "layer_from": 0,
+                    "layer_title": "Topsoil",
+                    "layer_descr": "Poorly-graded sand (SP)Poorly-graded sand (SP)Poorly-graded sand (SP)Poorly-graded sand (SP)",
+                    "layer_symbol": "Topsoil",
+                    "layer_forecolor": "#00ff00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9f2fd8ba-fa31-aeb1-9b89-3a0e79f41194",
+                    "layer_to": 24,
+                    "layer_from": 0.25,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine to Coarse SAND with Trace of  Shell Fragments and  Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9223cdd3-0eb4-df9f-8302-3a0e79f41194",
+                    "layer_to": 53,
+                    "layer_from": 24,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "97e88678-8d59-b32f-e961-3a0e79f41194",
+                    "layer_to": 61.3,
+                    "layer_from": 53,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy SILT With Trace of Shell Fragments",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8ac714ee-5b7b-d0e1-7070-3a0e79f41194",
+                    "layer_to": 110,
+                    "layer_from": 61.3,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine to Coarse SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9e4f4280-0e29-2f76-5cdf-3a0e79f41194",
+                    "layer_to": 135,
+                    "layer_from": 110,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "baaea32e-674f-d4c9-691b-3a0e79f41194",
+                    "layer_to": 175,
+                    "layer_from": 135,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "4c543afe-3557-1d92-b099-3a0e79f41194",
+                    "layer_to": 184.5,
+                    "layer_from": 175,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "29f7c6a0-0112-1850-c2d2-3a0e79f41193",
+            "th_title": "B-59",
+            "th_type": "Drill Hole",
+            "th_depth": 199.7,
+            "th_coordinates": "38.982973733, -120.9968512361, 266",
+            "th_viewer_coordinates": "1766, 2302, 266",
+            "th_latitude": 38.982973733,
+            "th_longitude": -120.9968512361,
+            "th_easting": 1766,
+            "th_northing": 2302,
+            "th_ground_water_depth": 38.9,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "fc4728c3-bf79-159b-436c-3a0e79f41193",
+                    "layer_to": 12,
+                    "layer_from": 0,
+                    "layer_title": "",
+                    "layer_descr": "Brown Coarse to Fine SAND with Trace of Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "18d37bc6-7ec4-496b-753a-3a0e79f41193",
+                    "layer_to": 36,
+                    "layer_from": 12,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d672adcc-87ef-3f3b-6d63-3a0e79f41193",
+                    "layer_to": 47.7,
+                    "layer_from": 36,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy SILT with Some Shell Fragments",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "f2cdfde0-0dbd-c4e0-5118-3a0e79f41193",
+                    "layer_to": 57.7,
+                    "layer_from": 47.7,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND with Some Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "a9a63c48-b204-f3a1-715f-3a0e79f41193",
+                    "layer_to": 131,
+                    "layer_from": 57.7,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "2c19565f-b430-b727-2051-3a0e79f41193",
+                    "layer_to": 169.4,
+                    "layer_from": 131,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "570925c1-8804-4107-2e4b-3a0e79f41193",
+                    "layer_to": 191.3,
+                    "layer_from": 169.4,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "6b926cdc-bda4-bcdb-d808-3a0e79f41193",
+                    "layer_to": 199.7,
+                    "layer_from": 191.3,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND with Some Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "eb864ed5-5156-6aa4-8f0a-3a0e79f41193",
+            "th_title": "B-60",
+            "th_type": "Drill Hole",
+            "th_depth": 169.1,
+            "th_coordinates": "38.9845625913, -120.9970468991, 266.5",
+            "th_viewer_coordinates": "1704, 2880, 266.5",
+            "th_latitude": 38.9845625913,
+            "th_longitude": -120.9970468991,
+            "th_easting": 1704,
+            "th_northing": 2880,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 0,
+            "th_layers": [
+                {
+                    "layer_id": "15a8cfe2-0661-c7be-53af-3a0e79f41194",
+                    "layer_to": 25,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "        Gray Fine to Coarse SAND with Trace of Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "0c3fba92-512e-7641-126c-3a0e79f41194",
+                    "layer_to": 33.2,
+                    "layer_from": 25,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "98ec9a76-9ac7-a0d3-b276-3a0e79f41194",
+                    "layer_to": 112,
+                    "layer_from": 33.2,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "58846e85-3d48-2866-a089-3a0e79f41194",
+                    "layer_to": 116,
+                    "layer_from": 112,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine to Coarse SAND with Trace of Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "761a899e-23d0-02f0-0784-3a0e79f41194",
+                    "layer_to": 152,
+                    "layer_from": 116,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "cd577e2e-5ecb-5e00-9e01-3a0e79f41194",
+                    "layer_to": 169.1,
+                    "layer_from": 152,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "4146b747-605c-52d4-7bad-3a0e79f41193",
+            "th_title": "B-61",
+            "th_type": "Drill Hole",
+            "th_depth": 198.2,
+            "th_coordinates": "38.9847329524, -120.9983357126, 269",
+            "th_viewer_coordinates": "1337, 2938, 269",
+            "th_latitude": 38.9847329524,
+            "th_longitude": -120.9983357126,
+            "th_easting": 1337,
+            "th_northing": 2938,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "0ad8bd70-b253-b5b1-2269-3a0e79f41193",
+                    "layer_to": 5,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "a7452997-4523-2212-364d-3a0e79f41193",
+                    "layer_to": 10,
+                    "layer_from": 5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "e85da4d4-f320-a5c8-dfb1-3a0e79f41193",
+                    "layer_to": 15,
+                    "layer_from": 10,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "b907499b-534c-51e4-eb01-3a0e79f41193",
+                    "layer_to": 20,
+                    "layer_from": 15,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "0371a36f-62a4-71de-afc4-3a0e79f41193",
+                    "layer_to": 25,
+                    "layer_from": 20,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e162eac3-a457-0685-0550-3a0e79f41193",
+                    "layer_to": 34.2,
+                    "layer_from": 25,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "1fc8bbf7-23b6-9923-ee59-3a0e79f41193",
+                    "layer_to": 39.5,
+                    "layer_from": 34.2,
+                    "layer_title": null,
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "c40f4c71-5315-3af8-4f4d-3a0e79f41193",
+                    "layer_to": 131,
+                    "layer_from": 39.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "1eeafa1d-bf62-17ca-5b34-3a0e79f41193",
+                    "layer_to": 161.1,
+                    "layer_from": 131,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "1e39a471-3fca-90c5-e9b2-3a0e79f41193",
+                    "layer_to": 170.8,
+                    "layer_from": 161.1,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "7cdfb083-c603-d90f-3065-3a0e79f41193",
+                    "layer_to": 176.1,
+                    "layer_from": 170.8,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "d52cd688-46f6-93fc-b738-3a0e79f41193",
+                    "layer_to": 198.2,
+                    "layer_from": 176.1,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                }
+            ]
+        },
+        {
+            "th_id": "fdb74b0b-82ba-4d8b-25f7-3a0e79f41193",
+            "th_title": "B-62",
+            "th_type": "Drill Hole",
+            "th_depth": 182.5,
+            "th_coordinates": "38.9858830994, -120.9995649736, 269.3",
+            "th_viewer_coordinates": "983, 3353, 269.3",
+            "th_latitude": 38.9858830994,
+            "th_longitude": -120.9995649736,
+            "th_easting": 983,
+            "th_northing": 3353,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "0e61fe81-6ef2-311e-15cd-3a0e79f41193",
+                    "layer_to": 12.5,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "3a40029e-6c26-cf82-a6c8-3a0e79f41193",
+                    "layer_to": 17,
+                    "layer_from": 12.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "f22e66ab-b745-2b93-8105-3a0e79f41193",
+                    "layer_to": 26.8,
+                    "layer_from": 17,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "467d7622-95ec-d124-4abc-3a0e79f41193",
+                    "layer_to": 44.5,
+                    "layer_from": 26.8,
+                    "layer_title": null,
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "c6e79d0d-6935-79fe-b324-3a0e79f41193",
+                    "layer_to": 72,
+                    "layer_from": 44.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "3c1a06e4-686f-2598-b970-3a0e79f41193",
+                    "layer_to": 110.5,
+                    "layer_from": 72,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "dc3add7c-1d58-dddd-3f56-3a0e79f41193",
+                    "layer_to": 124.8,
+                    "layer_from": 110.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "57e4302f-baad-14e2-ea0c-3a0e79f41193",
+                    "layer_to": 129.8,
+                    "layer_from": 124.8,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "09b596a1-a52f-7479-74f5-3a0e79f41193",
+                    "layer_to": 164,
+                    "layer_from": 129.8,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "f3ab5e2c-8a30-04ff-fae6-3a0e79f41193",
+                    "layer_to": 182.5,
+                    "layer_from": 164,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                }
+            ]
+        },
+        {
+            "th_id": "2473d808-0e71-9c5d-d40f-3a0e79f41193",
+            "th_title": "B-63",
+            "th_type": "Drill Hole",
+            "th_depth": 200,
+            "th_coordinates": "38.9811931347, -120.9986249357, 272.5",
+            "th_viewer_coordinates": "1269, 1648, 272.5",
+            "th_latitude": 38.9811931347,
+            "th_longitude": -120.9986249357,
+            "th_easting": 1269,
+            "th_northing": 1648,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "54cda646-61fa-8b0e-8d4e-3a0e79f41193",
+                    "layer_to": 11,
+                    "layer_from": 0,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine SAND with Trace Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "3ecceff8-ad9f-dba0-2876-3a0e79f41193",
+                    "layer_to": 17,
+                    "layer_from": 11,
+                    "layer_title": "",
+                    "layer_descr": "Green Gray Fine Sandy CLAY",
+                    "layer_symbol": "A-6",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "341651a8-6595-7153-6d74-3a0e79f41193",
+                    "layer_to": 36,
+                    "layer_from": 17,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "1676dd9c-f4ca-b827-0ef4-3a0e79f41193",
+                    "layer_to": 46,
+                    "layer_from": 36,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "2edac9f4-6412-cb70-2f77-3a0e79f41193",
+                    "layer_to": 55,
+                    "layer_from": 46,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy SILT",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "a2fe04ad-3e6f-46b8-4cfe-3a0e79f41193",
+                    "layer_to": 118,
+                    "layer_from": 55,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "eace2054-afd2-0e49-c9ec-3a0e79f41193",
+                    "layer_to": 122.5,
+                    "layer_from": 118,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine to Coarse SAND with Some Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "02003ba5-6ed1-aafc-903a-3a0e79f41193",
+                    "layer_to": 133,
+                    "layer_from": 122.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "92447019-84df-9d78-c768-3a0e79f41193",
+                    "layer_to": 142.5,
+                    "layer_from": 133,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d9c1fedf-f155-8f42-ff94-3a0e79f41193",
+                    "layer_to": 172,
+                    "layer_from": 142.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8b59e164-9de1-c708-9bd8-3a0e79f41193",
+                    "layer_to": 186,
+                    "layer_from": 172,
+                    "layer_title": "",
+                    "layer_descr": "Green Gray to Gray Silty Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "d89f712b-9ce6-3203-33e3-3a0e79f41193",
+                    "layer_to": 189.3,
+                    "layer_from": 186,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "75ed26c5-fc78-43ed-378f-3a0e79f41193",
+                    "layer_to": 200,
+                    "layer_from": 189.2,
+                    "layer_title": "",
+                    "layer_descr": "Gray Clayey Silty Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "e0f1dfbc-f020-e03c-09d7-3a0e79f41193",
+            "th_title": "B-64",
+            "th_type": "Drill Hole",
+            "th_depth": 200,
+            "th_coordinates": "38.9871400324, -120.9998005708, 265.5",
+            "th_viewer_coordinates": "911, 3810, 265.5",
+            "th_latitude": 38.9871400324,
+            "th_longitude": -120.9998005708,
+            "th_easting": 911,
+            "th_northing": 3810,
+            "th_ground_water_depth": 27.5,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "8a0a60b6-d920-5aa5-029f-3a0e79f41193",
+                    "layer_to": 13,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "4625417c-950d-4782-1bd2-3a0e79f41193",
+                    "layer_to": 18,
+                    "layer_from": 13,
+                    "layer_title": null,
+                    "layer_descr": "Green Gray Fine Sandy CLAY",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "ab118576-a8fc-e598-059b-3a0e79f41193",
+                    "layer_to": 43.6,
+                    "layer_from": 18,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND with Trace of Silt",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "0938b3c5-3a7b-d27c-3667-3a0e79f41193",
+                    "layer_to": 55,
+                    "layer_from": 43.6,
+                    "layer_title": null,
+                    "layer_descr": "Gray Clayey Fine Sandy SILT",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "29db0082-a8c2-7f46-2e7e-3a0e79f41193",
+                    "layer_to": 117,
+                    "layer_from": 55,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "19f2ad55-eb57-3ec6-793a-3a0e79f41193",
+                    "layer_to": 125.4,
+                    "layer_from": 117,
+                    "layer_title": null,
+                    "layer_descr": "Brown Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "730a0a8f-0856-0424-6203-3a0e79f41193",
+                    "layer_to": 143.5,
+                    "layer_from": 125.4,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Coarse to Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "b5dbade9-65d3-e5b8-26eb-3a0e79f41193",
+                    "layer_to": 174.3,
+                    "layer_from": 143.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "bc99040e-e236-6856-5365-3a0e79f41193",
+                    "layer_to": 200,
+                    "layer_from": 174.3,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Fine to Coarse SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                }
+            ]
+        },
+        {
+            "th_id": "25ba6f99-b8b7-1ff7-4f79-3a0e79f41193",
+            "th_title": "B-65",
+            "th_type": "Drill Hole",
+            "th_depth": 185.7,
+            "th_coordinates": "38.9893125974, -121.0011386446, 243",
+            "th_viewer_coordinates": "522, 4597, 243",
+            "th_latitude": 38.9893125974,
+            "th_longitude": -121.0011386446,
+            "th_easting": 522,
+            "th_northing": 4597,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "320aec9f-35a2-1e20-13bf-3a0e79f41193",
+                    "layer_to": 9,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine SAND",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "940fa52e-0372-d0ad-b37b-3a0e79f41193",
+                    "layer_to": 13.5,
+                    "layer_from": 9,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine Sandy Clayey SILT",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "33e0d684-9662-caf8-69ec-3a0e79f41193",
+                    "layer_to": 36,
+                    "layer_from": 13.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine SAND",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "540687b8-2008-6059-c818-3a0e79f41193",
+                    "layer_to": 43.1,
+                    "layer_from": 36,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy SILT with Trace of Clay",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "49728d11-41f0-8a59-9d2b-3a0e79f41193",
+                    "layer_to": 51,
+                    "layer_from": 43.1,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "9f3c5e2c-04bc-6418-9177-3a0e79f41193",
+                    "layer_to": 54.8,
+                    "layer_from": 51,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "ML",
+                    "layer_forecolor": "#FF00FF",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "SWM/OHM",
+                    "layer_geologic_category": "HF"
+                },
+                {
+                    "layer_id": "d748f346-99e6-fa21-bb67-3a0e79f41193",
+                    "layer_to": 72,
+                    "layer_from": 54.8,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine SAND with Some Shell Fragments and Trace of Silt and Clay",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "478754c2-6e2c-1961-2d86-3a0e79f41193",
+                    "layer_to": 93.3,
+                    "layer_from": 72,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine SAND with Trace of Silt and Clay",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "f3c72c9f-dfc7-b135-dfef-3a0e79f41193",
+                    "layer_to": 100,
+                    "layer_from": 93.3,
+                    "layer_title": null,
+                    "layer_descr": "Green to Gray Coarse to Fine SAND with Trace of Silt and Clay",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "3a864fd5-99c9-b7b5-3927-3a0e79f41193",
+                    "layer_to": 120.5,
+                    "layer_from": 100,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine SAND ",
+                    "layer_symbol": "SP",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "BTB",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "91e8ac5c-3fc3-6a14-34e3-3a0e79f41193",
+                    "layer_to": 139,
+                    "layer_from": 120.5,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine SAND with Trace of Silt and Clay",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                },
+                {
+                    "layer_id": "2df6c9ed-9ff2-2f88-5d05-3a0e79f41193",
+                    "layer_to": 146,
+                    "layer_from": 139,
+                    "layer_title": null,
+                    "layer_descr": "Gray Coarse to Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "2220725f-a35b-e96e-2d32-3a0e79f41193",
+                    "layer_to": 173.3,
+                    "layer_from": 146,
+                    "layer_title": null,
+                    "layer_descr": "Gray Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "CL",
+                    "layer_forecolor": "#FF0000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": "LS",
+                    "layer_geologic_category": "LS"
+                },
+                {
+                    "layer_id": "a6f2d06c-7743-9f66-b9d5-3a0e79f41193",
+                    "layer_to": 185.7,
+                    "layer_from": 173.3,
+                    "layer_title": null,
+                    "layer_descr": "Gray Silty Clayey Fine SAND with Trace of Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": "BCF",
+                    "layer_geologic_category": "CK"
+                }
+            ]
+        },
+        {
+            "th_id": "8dd98629-4506-0081-74d9-3a0e79f41193",
+            "th_title": "B-66",
+            "th_type": "Drill Hole",
+            "th_depth": 190,
+            "th_coordinates": "38.9819582015, -121.0023398859, 246.2",
+            "th_viewer_coordinates": "210, 1915, 246.2",
+            "th_latitude": 38.9819582015,
+            "th_longitude": -121.0023398859,
+            "th_easting": 210,
+            "th_northing": 1915,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "cf7df8e5-539e-b03f-abd4-3a0e79f41193",
+                    "layer_to": 12,
+                    "layer_from": 0,
+                    "layer_title": null,
+                    "layer_descr": "Silty SAND with GRAVEL (SM); (Dry); Little SAND, Little Fines, 15% GRAVEL. ",
+                    "layer_symbol": "SM",
+                    "layer_forecolor": "#008000",
+                    "layer_backcolor": "#FFFFFF",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "853916e1-cf79-9143-d1b9-3a0e79f41193",
+                    "layer_to": 27,
+                    "layer_from": 12,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine SAND with Traceof Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "ea88d347-f084-fc6b-cd18-3a0e79f41193",
+                    "layer_to": 32.5,
+                    "layer_from": 27,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "7aeebf3f-9a28-aa59-e405-3a0e79f41193",
+                    "layer_to": 57.5,
+                    "layer_from": 32.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Coarse to Fine SAND with Trace of  Shell Fragments",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "7f4a03cd-8cfb-8de7-02db-3a0e79f41193",
+                    "layer_to": 72.5,
+                    "layer_from": 57.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "165bfac9-3745-e93a-1f19-3a0e79f41193",
+                    "layer_to": 102.5,
+                    "layer_from": 72.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "4c6865d5-aa29-500f-95e3-3a0e79f41193",
+                    "layer_to": 108,
+                    "layer_from": 102.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine SAND with Trace of  Silt",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "56d242d1-06de-b523-8c48-3a0e79f41193",
+                    "layer_to": 112.5,
+                    "layer_from": 108,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e55883ac-8fd3-880f-c108-3a0e79f41193",
+                    "layer_to": 117,
+                    "layer_from": 112.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8b293000-fef5-a3f6-7214-3a0e79f41193",
+                    "layer_to": 137.5,
+                    "layer_from": 117,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "514e2621-bbb3-0d5c-b809-3a0e79f41193",
+                    "layer_to": 142.5,
+                    "layer_from": 137.5,
+                    "layer_title": "",
+                    "layer_descr": "Red Clayey SILT",
+                    "layer_symbol": "A-4",
+                    "layer_forecolor": "#ff6820",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "cc9665cf-69da-ee81-a6fd-3a0e79f41193",
+                    "layer_to": 147.5,
+                    "layer_from": 142.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "c06e7365-8422-2947-b024-3a0e79f41193",
+                    "layer_to": 157,
+                    "layer_from": 147.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "77f6455e-77b6-91fc-75c8-3a0e79f41193",
+                    "layer_to": 172.5,
+                    "layer_from": 157,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY with Trace of Shell Fragments",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "7b453ed0-acd4-2fd9-f109-3a0e79f41193",
+                    "layer_to": 175.5,
+                    "layer_from": 172.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "baa04cd3-cdf4-ceb6-45da-3a0e79f41193",
+                    "layer_to": 187.5,
+                    "layer_from": 175.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "e64fb636-2a05-1c70-54e9-3a0e79f41193",
+                    "layer_to": 190,
+                    "layer_from": 187.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty  Coarse to Fine SAND",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        },
+        {
+            "th_id": "b8bf2c01-7c35-3ca5-9b06-3a0e79f41193",
+            "th_title": "B-67",
+            "th_type": "Drill Hole",
+            "th_depth": 110,
+            "th_coordinates": "38.9880708337, -121.0029927808, 242.9",
+            "th_viewer_coordinates": "0, 4139, 242.9",
+            "th_latitude": 38.9880708337,
+            "th_longitude": -121.0029927808,
+            "th_easting": 0,
+            "th_northing": 4139,
+            "th_ground_water_depth": null,
+            "th_Trend_or_azimuth": 0,
+            "th_plunge": 90,
+            "th_layers": [
+                {
+                    "layer_id": "6525419e-2e79-ee73-c182-3a0e79f41194",
+                    "layer_to": 51.5,
+                    "layer_from": 0,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine SAND with Trace of Silt and Shell Fragments",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "8ec3ca6b-b35d-a027-6200-3a0e79f41194",
+                    "layer_to": 61,
+                    "layer_from": 51.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine Sandy Silty CLAY",
+                    "layer_symbol": "A-7",
+                    "layer_forecolor": "#32cd32",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "501c70cf-aec7-0218-efa9-3a0e79f41194",
+                    "layer_to": 67.5,
+                    "layer_from": 61,
+                    "layer_title": "",
+                    "layer_descr": "Gray Silty Clayey Fine to Coarse SAND with Trace of  Shell Fragments",
+                    "layer_symbol": "A-2-6",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "05bbbbbf-d060-23cb-8c5d-3a0e79f41194",
+                    "layer_to": 86.8,
+                    "layer_from": 67.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine SAND with Trace of Silt and Clay",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "9a41d318-3a61-b934-7aed-3a0e79f41194",
+                    "layer_to": 97.5,
+                    "layer_from": 86.8,
+                    "layer_title": "",
+                    "layer_descr": "Gray Coarse to Fine SAND",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "b871b914-3b99-a2f0-06b4-3a0e79f41194",
+                    "layer_to": 102,
+                    "layer_from": 97.5,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine SAND with Trace of Clay",
+                    "layer_symbol": "A-2",
+                    "layer_forecolor": "#ffd700",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                },
+                {
+                    "layer_id": "2ab92d35-0705-e10c-804a-3a0e79f41194",
+                    "layer_to": 110,
+                    "layer_from": 102,
+                    "layer_title": "",
+                    "layer_descr": "Gray Fine to Coarse SAND",
+                    "layer_symbol": "A-3",
+                    "layer_forecolor": "#a52a00",
+                    "layer_backcolor": "#ffffff",
+                    "layer_geologic_unit": null,
+                    "layer_geologic_category": null
+                }
+            ]
+        }
+    ]
+}
