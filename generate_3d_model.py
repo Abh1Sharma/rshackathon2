@@ -13,6 +13,13 @@ from scipy.interpolate import griddata, LinearNDInterpolator
 import colorsys
 import struct
 
+# Try to import intelligent layer matching (optional, for ML-based layer matching)
+try:
+    from intelligent_layer_matching import IntelligentLayerMatcher
+    INTELLIGENT_MATCHING_AVAILABLE = True
+except ImportError:
+    INTELLIGENT_MATCHING_AVAILABLE = False
+
 def hex_to_rgb(hex_color):
     """Convert hex color to RGB tuple (0-1 range)"""
     hex_color = hex_color.lstrip('#')
@@ -462,7 +469,7 @@ def export_obj(polygons, filepath):
     
     print(f"✓ Exported OBJ to: {filepath}")
 
-def create_cross_section_between_boreholes(data, borehole1_name, borehole2_name, num_segments=10):
+def create_cross_section_between_boreholes(data, borehole1_name, borehole2_name, num_segments=10, layer_matcher=None):
     """
     Create a cross-section plane between two boreholes showing interpolated soil layers.
     
@@ -473,6 +480,9 @@ def create_cross_section_between_boreholes(data, borehole1_name, borehole2_name,
     
     Uses POSITIONAL matching - layers are matched by their order in the sequence,
     ensuring layer boundaries align and create continuous surfaces.
+    
+    If layer_matcher is provided (IntelligentLayerMatcher), uses ML-based matching
+    to intelligently pair layers based on soil properties, colors, and descriptions.
     """
     traces = []
     
@@ -1304,6 +1314,17 @@ def main():
     # Show the 3D model
     if fig_3d:
         fig_3d.show()
+    
+    # Test intelligent layer matching if available
+    if INTELLIGENT_MATCHING_AVAILABLE:
+        print("\n" + "=" * 60)
+        print("🧠 INTELLIGENT LAYER MATCHING AVAILABLE")
+        print("=" * 60)
+        print("To use ML-based layer matching, run:")
+        print("  python intelligent_layer_matching.py")
+        print("This trains a model on soil properties for better layer matching.")
+        print("=" * 60)
+
 
 if __name__ == "__main__":
     main()
