@@ -19,6 +19,55 @@ try:
     INTELLIGENT_MATCHING_AVAILABLE = True
 except ImportError:
     INTELLIGENT_MATCHING_AVAILABLE = False
+    IntelligentLayerMatcher = None
+
+# Global matcher instance (lazy-loaded)
+_global_matcher = None
+
+def get_intelligent_matcher(data=None, force_retrain=False):
+    """
+    Get or create a trained IntelligentLayerMatcher instance.
+    Uses a global singleton to avoid retraining.
+    """
+    global _global_matcher
+    
+    if not INTELLIGENT_MATCHING_AVAILABLE:
+        print("⚠ Intelligent matching not available (missing dependencies)")
+        return None
+    
+    if _global_matcher is not None and not force_retrain:
+        return _global_matcher
+    
+    if data is None:
+        print("⚠ No data provided to train matcher")
+        return None
+    
+    print("\n🧠 Initializing Intelligent Layer Matcher...")
+    matcher = IntelligentLayerMatcher(use_openai=True)
+    
+    # Try to load existing model
+    model_path = Path(__file__).parent / "layer_matching_model.pkl"
+    if model_path.exists() and not force_retrain:
+        try:
+            matcher.load_model(model_path)
+            print("  Loaded pre-trained model")
+            _global_matcher = matcher
+            return matcher
+        except Exception as e:
+            print(f"  Could not load model: {e}")
+    
+    # Train new model
+    print("  Training new model on dataset...")
+    matcher.train(data)
+    
+    # Save for future use
+    try:
+        matcher.save_model(model_path)
+    except Exception as e:
+        print(f"  Warning: Could not save model: {e}")
+    
+    _global_matcher = matcher
+    return matcher
 
 def hex_to_rgb(hex_color):
     """Convert hex color to RGB tuple (0-1 range)"""
@@ -739,7 +788,169 @@ def create_cross_section_between_boreholes(data, borehole1_name, borehole2_name,
     return traces
 
 
-def create_3d_visualization(data, output_html=None, cross_section_pairs=None):
+def create_intelligent_cross_section(data, borehole1_name, borehole2_name, matcher=None):
+    """
+    Create a cross-section using ML-based intelligent layer matching.
+    
+    Uses the IntelligentLayerMatcher to determine optimal layer connections
+    based on soil properties, colors, descriptions, and geological context.
+    
+    Args:
+        data: JSON data with borehole info
+        borehole1_name, borehole2_name: Names of boreholes to connect
+        matcher: Trained IntelligentLayerMatcher instance (optional)
+    
+    Returns:
+        List of Plotly traces for the cross-section
+    """
+    traces = []
+    
+    # Find the two boreholes
+    boreholes = data.get('boreholesData', [])
+    bh1 = None
+    bh2 = None
+    
+    for bh in boreholes:
+        name = bh.get('th_title', '')
+        if name == borehole1_name:
+            bh1 = bh
+        elif name == borehole2_name:
+            bh2 = bh
+    
+    if not bh1 or not bh2:
+        print(f"  Warning: Could not find boreholes {borehole1_name} and/or {borehole2_name}")
+        return create_cross_section_between_boreholes(data, borehole1_name, borehole2_name)
+    
+    # Get or create matcher
+    if matcher is None:
+        matcher = get_intelligent_matcher(data)
+    
+    if matcher is None:
+        print("  Falling back to positional matching")
+        return create_cross_section_between_boreholes(data, borehole1_name, borehole2_name)
+    
+    # Get layers
+    layers1 = sorted(bh1.get('th_layers', []), key=lambda l: l.get('layer_from', 0))
+    layers2 = sorted(bh2.get('th_layers', []), key=lambda l: l.get('layer_from', 0))
+    
+    if not layers1 or not layers2:
+        return traces
+    
+    # Use ML to find best matches
+    matches = matcher.find_best_matches(layers1, layers2, bh1=bh1, bh2=bh2, threshold=0.3)
+    
+    print(f"  🧠 ML Matched {len(matches)} layer pairs for {borehole1_name} ↔ {borehole2_name}")
+    for i, j, prob in matches[:5]:  # Show first 5
+        sym1 = layers1[i].get('layer_symbol', '?')
+        sym2 = layers2[j].get('layer_symbol', '?')
+        print(f"     {sym1} ↔ {sym2} ({prob:.1%})")
+    
+    # Now create the cross-section using the matched layers
+    # For unmatched layers, we'll blend them appropriately
+    
+    def get_borehole_position(bh):
+        easting = bh.get('th_easting', 0)
+        northing = bh.get('th_northing', 0)
+        coords = bh.get('th_coordinates', '0,0,0')
+        try:
+            elevation = float(coords.split(',')[2].strip())
+        except:
+            elevation = 500
+        return easting, northing, elevation
+    
+    x1, y1, elev1 = get_borehole_position(bh1)
+    x2, y2, elev2 = get_borehole_position(bh2)
+    
+    def get_layer_info(layer):
+        symbol = layer.get('layer_symbol', 'Unknown')
+        color_hex = layer.get('layer_forecolor', '#808080')
+        if color_hex == '#FFFFFF' or color_hex == '#ffffff':
+            color_hex = layer.get('layer_backcolor', '#808080')
+        if not color_hex or not color_hex.startswith('#'):
+            color_hex = '#808080'
+        description = layer.get('layer_descr', '')
+        return symbol, color_hex, description
+    
+    # Create traces for each matched pair
+    for i, j, prob in matches:
+        layer1 = layers1[i]
+        layer2 = layers2[j]
+        
+        d1_top = layer1.get('layer_from', 0)
+        d1_bottom = layer1.get('layer_to', d1_top + 10)
+        d2_top = layer2.get('layer_from', 0)
+        d2_bottom = layer2.get('layer_to', d2_top + 10)
+        
+        z1_top = elev1 - d1_top
+        z1_bottom = elev1 - d1_bottom
+        z2_top = elev2 - d2_top
+        z2_bottom = elev2 - d2_bottom
+        
+        symbol1, color1, desc1 = get_layer_info(layer1)
+        symbol2, color2, desc2 = get_layer_info(layer2)
+        
+        # Use confidence to adjust opacity
+        opacity = 0.7 + 0.25 * prob
+        
+        # For high-confidence matches, use solid connection
+        # For lower confidence, show gradient blend
+        try:
+            color_rgb = hex_to_rgb(color1)
+        except:
+            color_rgb = (0.5, 0.5, 0.5)
+        
+        color_str = f'rgb({int(color_rgb[0]*255)},{int(color_rgb[1]*255)},{int(color_rgb[2]*255)})'
+        
+        # Create the connecting polygon
+        x = np.array([x1, x2, x2, x1])
+        y = np.array([y1, y2, y2, y1])
+        z = np.array([z1_top, z2_top, z2_bottom, z1_bottom])
+        
+        match_indicator = "✓" if symbol1 == symbol2 else "≈"
+        
+        trace = go.Mesh3d(
+            x=x, y=y, z=z,
+            i=[0, 0], j=[1, 2], k=[2, 3],
+            color=color_str,
+            opacity=opacity,
+            name=f'{symbol1} {match_indicator} {symbol2}',
+            hovertemplate=f'<b>ML Match: {prob:.0%}</b><br>{symbol1}: {desc1}<br>↔<br>{symbol2}: {desc2}<extra></extra>',
+            showlegend=False,
+            flatshading=True
+        )
+        traces.append(trace)
+        
+        # Add boundary lines
+        boundary_line = go.Scatter3d(
+            x=[x1, x2], y=[y1, y2], z=[z1_top, z2_top],
+            mode='lines',
+            line=dict(color='rgba(0,0,0,0.4)', width=2),
+            showlegend=False,
+            hoverinfo='skip'
+        )
+        traces.append(boundary_line)
+    
+    # Add label with ML indicator
+    mid_x = (x1 + x2) / 2
+    mid_y = (y1 + y2) / 2
+    mid_z = max(elev1, elev2) + 30
+    
+    label_trace = go.Scatter3d(
+        x=[mid_x], y=[mid_y], z=[mid_z],
+        mode='text',
+        text=[f'🧠 {borehole1_name} ↔ {borehole2_name}'],
+        textfont=dict(size=14, color='purple', family='Arial Black'),
+        showlegend=False,
+        hoverinfo='skip'
+    )
+    traces.append(label_trace)
+    
+    print(f"  ✓ Intelligent cross-section: {borehole1_name} ↔ {borehole2_name} ({len(matches)} ML-matched layers)")
+    
+    return traces
+
+
+def create_3d_visualization(data, output_html=None, cross_section_pairs=None, use_intelligent_matching=True):
     """
     Create interactive 3D visualization
     
@@ -748,6 +959,7 @@ def create_3d_visualization(data, output_html=None, cross_section_pairs=None):
         output_html: Path to save HTML file
         cross_section_pairs: List of tuples of borehole names to create cross-sections between
                             e.g., [('B-57', 'B-58'), ('B-53', 'B-54')]
+        use_intelligent_matching: If True, use ML-based layer matching
     
     Returns:
         Plotly figure
@@ -762,12 +974,22 @@ def create_3d_visualization(data, output_html=None, cross_section_pairs=None):
     print("Creating borehole traces...")
     borehole_traces = create_borehole_traces(data)
     
+    # Initialize intelligent matcher if requested
+    matcher = None
+    if use_intelligent_matching and INTELLIGENT_MATCHING_AVAILABLE:
+        matcher = get_intelligent_matcher(data)
+        if matcher:
+            print("🧠 Using Intelligent Layer Matching (ML-based)")
+    
     # Create cross-section planes between borehole pairs
     cross_section_traces = []
     if cross_section_pairs:
         print("Creating cross-section planes...")
         for bh1, bh2 in cross_section_pairs:
-            cs_traces = create_cross_section_between_boreholes(data, bh1, bh2)
+            if matcher:
+                cs_traces = create_intelligent_cross_section(data, bh1, bh2, matcher)
+            else:
+                cs_traces = create_cross_section_between_boreholes(data, bh1, bh2)
             cross_section_traces.extend(cs_traces)
     
     # Combine all traces
